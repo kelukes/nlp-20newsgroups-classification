@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-05-19T22:10:25",
+  "processed_dataset": "data/processed/20ng_tech_preprocessed.parquet",
+  "modeling_input_dataset": "data/processed/20ng_tech_modeling_input.parquet",
+  "config": "outputs/config/eda_preprocessing_config.json",
+  "environment": "outputs/config/eda_environment_info.json",
+  "saved_tables": {
+    "length_impact": "outputs/tables/preprocessing_length_impact.csv",
+    "retention_summary": "outputs/tables/preprocessing_word_retention_summary.csv",
+    "class_length_impact": "outputs/tables/preprocessing_class_length_impact.csv",
+    "artifact_overall": "outputs/tables/artifact_overall.csv",
+    "artifact_by_class": "outputs/tables/artifact_density_by_class.csv",
+    "artifact_intensity_selected": "outputs/tables/artifact_intensity_selected.csv",
+    "artifact_residuals": "outputs/tables/artifact_residuals_after_preprocessing.csv",
+    "length_slice_by_regime": "outputs/tables/length_slice_by_regime.csv",
+    "length_slice_pivot": "outputs/tables/length_slice_pivot.csv",
+    "quote_slice_summary": "outputs/tables/quote_slice_summary.csv",
+    "quote_by_class": "outputs/tables/quote_density_by_class.csv",
+    "artifact_slice_summary": "outputs/tables/artifact_slice_summary.csv",
+    "vocab_diagnostics": "outputs/tables/vocab_diagnostics.csv",
+    "centroid_similarity_df": "outputs/tables/centroid_similarity_matrix.csv",
+    "pair_similarity_df": "outputs/tables/centroid_pair_similarity.csv",
+    "shared_terms_pairs": "outputs/tables/shared_terms_for_top_pairs.csv",
+    "top_terms_overall_text_raw": "outputs/tables/top_terms_overall_text_raw.csv",
+    "top_terms_overall_text_subject_body_clean": "outputs/tables/top_terms_overall_text_subject_body_clean.csv",
+    "top_terms_overall_text_body_only_clean": "outputs/tables/top_terms_overall_text_body_only_clean.csv",
+    "top_terms_overall_text_subject_body_no_quotes": "outputs/tables/top_terms_overall_text_subject_body_no_quotes.csv"
+  },
+  "next_notebook": "02_modeling_evaluation.ipynb",
+  "next_steps": [
+    "Load processed dataset.",
+    "Audit thread/quote-aware split feasibility using Message-ID, References, In-Reply-To, and quote fingerprints.",
+    "Create and save split assignments.",
+    "Train classical baselines across text regimes.",
+    "Compare macro F1, per-class F1, confusion matrices, and slice performance.",
+    "Fine-tune transformer model on selected regime(s)."
+  ]
+}
