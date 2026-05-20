@@ -1,0 +1,11 @@
+,class_a,class_b,centroid_cosine_similarity,n_shared_top_terms,shared_top_terms
+0,comp.sys.ibm.pc.hardware,comp.sys.mac.hardware,0.6214315654125944,4,"drive, monitor, scsi, thanks"
+1,comp.graphics,comp.windows.x,0.5587368063032162,3,"file, program, thanks"
+2,comp.os.ms-windows.misc,comp.sys.ibm.pc.hardware,0.5344315823724396,2,"card, thanks"
+3,comp.graphics,comp.os.ms-windows.misc,0.5280945750587698,4,"file, files, program, thanks"
+4,comp.os.ms-windows.misc,comp.windows.x,0.5195656184976953,4,"file, program, thanks, using"
+5,comp.sys.ibm.pc.hardware,sci.electronics,0.5063630618124625,2,"help, thanks"
+6,comp.sys.mac.hardware,sci.electronics,0.5030618621488504,2,"thanks, writes"
+7,comp.graphics,sci.electronics,0.49076056476472496,3,"help, need, thanks"
+8,comp.graphics,comp.sys.ibm.pc.hardware,0.47934427177871963,2,"help, thanks"
+9,comp.graphics,comp.sys.mac.hardware,0.4401185603549079,1,thanks

@@ -1,0 +1,21 @@
+,text_regime,class_a,class_b,centroid_cosine_similarity,pair,regime_label
+0,text_subject_body_clean,comp.sys.ibm.pc.hardware,comp.sys.mac.hardware,0.6214315654125944,"sys.ibm.pc.hardware vs
+sys.mac.hardware",Subject+Body Clean
+1,text_subject_body_clean,comp.graphics,comp.windows.x,0.5587368063032162,"graphics vs
+windows.x",Subject+Body Clean
+2,text_subject_body_clean,comp.os.ms-windows.misc,comp.sys.ibm.pc.hardware,0.5344315823724396,"os.ms-windows.misc vs
+sys.ibm.pc.hardware",Subject+Body Clean
+3,text_subject_body_clean,comp.graphics,comp.os.ms-windows.misc,0.5280945750587698,"graphics vs
+os.ms-windows.misc",Subject+Body Clean
+4,text_subject_body_clean,comp.os.ms-windows.misc,comp.windows.x,0.5195656184976953,"os.ms-windows.misc vs
+windows.x",Subject+Body Clean
+5,text_subject_body_clean,comp.sys.ibm.pc.hardware,sci.electronics,0.5063630618124625,"sys.ibm.pc.hardware vs
+electronics",Subject+Body Clean
+6,text_subject_body_clean,comp.sys.mac.hardware,sci.electronics,0.5030618621488504,"sys.mac.hardware vs
+electronics",Subject+Body Clean
+7,text_subject_body_clean,comp.graphics,sci.electronics,0.49076056476472496,"graphics vs
+electronics",Subject+Body Clean
+8,text_subject_body_clean,comp.graphics,comp.sys.ibm.pc.hardware,0.47934427177871963,"graphics vs
+sys.ibm.pc.hardware",Subject+Body Clean
+9,text_subject_body_clean,comp.graphics,comp.sys.mac.hardware,0.4401185603549079,"graphics vs
+sys.mac.hardware",Subject+Body Clean
