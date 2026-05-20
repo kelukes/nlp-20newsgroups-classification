@@ -1,0 +1,5 @@
+,quote_density_slice,count,share
+0,no_detected_quotes,4055,0.590591319545587
+1,low_quote_<25%,1024,0.14914069327119137
+2,quote_heavy_25_49%,1289,0.18773667346344305
+3,quote_dominated_50%plus,498,0.07253131371977863

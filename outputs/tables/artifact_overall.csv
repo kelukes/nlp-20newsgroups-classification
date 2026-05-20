@@ -1,0 +1,13 @@
+,artifact_feature,share_of_posts,count
+4,has_source_identity_header,1.0,6866
+6,has_content_adjacent_header,1.0,6866
+7,has_administrative_header,0.9979609670841829,6852
+0,has_email,0.9949024177104573,6831
+5,has_routing_threading_header,0.46417127876492864,3187
+8,has_quote_lines,0.40940868045441303,2811
+10,has_signature_marker,0.3796970579667929,2607
+11,has_separator_lines,0.16122924555782114,1107
+2,has_path_like,0.04500436935624818,309
+9,has_hash_quote_lines,0.021846781240897173,150
+1,has_url_or_ftp,0.01747742499271774,120
+3,has_label_leakage_header,0.003495484998543548,24
