@@ -4,6 +4,8 @@ Supervised 7-class topic classification on a technical subset of the 20 Newsgrou
 
 The model is designed as an **assistive topic routing tool**: it ranks and assigns posts to topic categories to support human review, not as an autonomous classifier for production deployment.
 
+**Dataset note:** This project uses the original `20news-19997.tar.gz` archive, not `sklearn.datasets.fetch_20newsgroups`, because raw headers and thread references are required for leakage and split analysis.
+
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![DistilBERT](https://img.shields.io/badge/Model-DistilBERT-blueviolet)
 ![TF--IDF](https://img.shields.io/badge/Baseline-TF--IDF%20%2B%20LR-lightblue)
