@@ -27,7 +27,7 @@ The model is designed as an **assistive topic routing tool**: it ranks and assig
 | TF-IDF + Logistic Regression | 0.8465 |
 | **DistilBERT (fine-tuned)** | **0.8956** |
 
-![Model comparison](outputs/figures/distil_bert_vs_tf_idf_test_performance.png)
+![Model comparison](outputs/figures/distil_bert_vs_tf_idf_test_performance.jpg)
 
 **Final recommended model:** DistilBERT fine-tuned on `text_subject_body_clean`
 
@@ -65,7 +65,7 @@ DistilBERT outperformed the linear baseline across all classes, particularly on 
 - **`comp.sys.ibm.pc.hardware` is the persistent weak class**: boundary confusion with adjacent hardware and OS topics is a structural data problem, not a modelling failure.
 - **Short, low-confidence, and quote-heavy posts** form a distinct error pattern and warrant human review rather than automated routing.
 
-![Class cosine similarity](outputs/figures/class_cosine_similarity.png)
+![Class cosine similarity](outputs/figures/class_cosine_similarity.jpg)
 
 **Recommended deployment safeguards:**
 - minimum confidence threshold before automated routing
