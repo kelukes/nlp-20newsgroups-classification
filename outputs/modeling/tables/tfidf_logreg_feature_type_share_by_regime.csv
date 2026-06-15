@@ -1,0 +1,5 @@
+text_regime,feature_type,n_features,share
+text_metadata_rich_no_leakage,metadata/source artifact,6,0.03428571428571429
+text_metadata_rich_no_leakage,semantic/topic or mixed,169,0.9657142857142857
+text_subject_body_clean,domain/server artifact,2,0.011428571428571429
+text_subject_body_clean,semantic/topic or mixed,173,0.9885714285714285

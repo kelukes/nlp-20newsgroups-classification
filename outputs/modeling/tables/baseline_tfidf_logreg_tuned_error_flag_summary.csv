@@ -1,0 +1,10 @@
+flag,n_docs,error_rate,mean_confidence
+correct,854,0.0,0.6593417368853401
+expected_overlap_pair,99,1.0,0.4166203870198771
+low_margin_wrong,94,1.0,0.28937513183912156
+short_or_very_short_text,62,1.0,0.3721665009836039
+high_structural_artifacts,31,1.0,0.35983448915850746
+quote_dominated,11,1.0,0.36182035681817376
+high_confidence_wrong,10,1.0,0.7970775214067427
+wrong_other,8,1.0,0.4433786499407557
+faq_digest_like,1,1.0,0.30026118394866547
