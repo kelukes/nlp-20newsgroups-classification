@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-06-15T18:36:19",
+  "split_strategy": "candidate_search_thread_group_split",
+  "group_column": "thread_group_id",
+  "target_split_proportions": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "n_candidates": 1000,
+  "selected_seed": 354,
+  "selected_score": 0.03127856382847227,
+  "selected_metrics": {
+    "score": 0.03127856382847227,
+    "n_leaking_groups": 0,
+    "overall_max_abs_dev": 0.007942914804670687,
+    "overall_mean_abs_dev": 0.005295276536447097,
+    "max_class_abs_dev": 0.020812182741116847,
+    "mean_class_abs_dev": 0.010342209101816617,
+    "min_docs_per_class_split": 130,
+    "train_docs": 4911,
+    "val_docs": 1014,
+    "test_docs": 1012,
+    "train_share": 0.7079429148046706,
+    "val_share": 0.14617269713132477,
+    "test_share": 0.1458843880640046,
+    "seed": 354
+  },
+  "selected_split_summary": {
+    "train_docs": 4911,
+    "val_docs": 1014,
+    "test_docs": 1012,
+    "train_share": 0.7079429148046706,
+    "val_share": 0.14617269713132477,
+    "test_share": 0.1458843880640046,
+    "max_class_level_abs_deviation": 0.020812182741116847,
+    "mean_class_level_abs_deviation": 0.010342209101816617
+  },
+  "scoring_rationale": [
+    "The worst class-level deviation is the primary criterion.",
+    "Mean class deviation and overall split deviation are secondary tie-breakers with lower weights.",
+    "Per-class balance is prioritized over exact global 70/15/15 proportions."
+  ],
+  "notes": [
+    "Split is group-aware: each thread connected component is assigned to exactly one partition.",
+    "No explicit thread-reference group is shared across train, validation, and test.",
+    "The largest thread component contains 234 sci.crypt documents and is assigned to train.",
+    "text_raw is not used as a fair modelling input; it is used only for metadata extraction."
+  ]
+}
