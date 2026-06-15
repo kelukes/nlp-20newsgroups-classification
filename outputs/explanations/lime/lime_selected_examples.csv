@@ -1,0 +1,111 @@
+doc_id,true_label,baseline_pred,baseline_correct,baseline_confidence,baseline_prediction_margin,baseline_error_pair,baseline_error_flags,text_preview,failure_mode_manual,review_notes,transformer_pred,transformer_correct,transformer_confidence,transformer_true_label_proba,transformer_prediction_margin,transformer_top1_label,transformer_top1_proba,transformer_top2_label,transformer_top2_proba,model_comparison_outcome,distilbert_error_pair,distilbert_fixed_baseline_error,distilbert_introduced_error,both_models_wrong,both_models_correct,text_subject_body_clean,lime_example_id,lime_visible_text,distilbert_pred,distilbert_confidence
+doc_06125,sci.electronics,sci.electronics,True,0.37620214909539723,0.045240334540845695,correct,correct,Re: Voice synth chips Alltronics in San Jose (408) 943-9773 sells the Votrax Sc-01 Speech Synthesis chip for about $5.00. Also I noticed that Radio Shack sells the ISD chip which will store small amounts of digitized speech. Good Luck,,,sci.electronics,True,0.99280566,0.99280566,0.9879768,sci.electronics,0.99280566,comp.sys.ibm.pc.hardware,0.004828844,both_correct,correct,False,False,False,True,"Re: Voice synth chips
+
+Alltronics in San Jose (408) 943-9773 sells the Votrax Sc-01 Speech Synthesis
+chip for about $5.00. Also I noticed that Radio Shack sells the ISD chip which
+ will store small amounts of digitized speech.
+
+Good Luck",lime_example_01,re : voice synth chips alltronics in san jose ( 408 ) 943 - 9773 sells the votrax sc - 01 speech synthesis chip for about $ 5. 00. also i noticed that radio shack sells the isd chip which will store small amounts of digitized speech. good luck,sci.electronics,0.99280566
+doc_05859,comp.os.ms-windows.misc,comp.os.ms-windows.misc,True,0.6375487738848379,0.4875134768754439,correct,correct,"Re: moving icons <EMAIL> (Kirk Membry) writes: >I remember reading about a program that made windows icons run away >from the mouse as it moved near them. Does anyone know the name >of this program and the ftp location (probably at cica) As I remember it, the name of the program your looking for is called icofrite. Cica was where I saw it last. It was quite a while ago. Richard Calderon: <EMAIL> * University of Miami School of Medicine * Information Systems Computing * 1029 NW 15 St. * Miami, Florida 33136 *",,,comp.os.ms-windows.misc,True,0.99832374,0.99832374,0.9977413,comp.os.ms-windows.misc,0.99832374,comp.sys.ibm.pc.hardware,0.00058244617,both_correct,correct,False,False,False,True,"Re: moving icons
+
+<EMAIL> (Kirk Membry) writes:
+
+>I remember reading about a program that made windows icons run away
+>from the mouse as it moved near them. Does anyone know the name
+>of this program and the ftp location (probably at cica)
+
+As I remember it, the name of the program your looking for is called icofrite.
+ Cica was where I saw it last. It was quite a while ago.
+
+Richard Calderon: <EMAIL> *
+University of Miami School of Medicine *
+Information Systems Computing *
+1029 NW 15 St. *
+Miami, Florida 33136 *",lime_example_02,"re : moving icons < email > ( kirk membry ) writes : > i remember reading about a program that made windows icons run away > from the mouse as it moved near them. does anyone know the name > of this program and the ftp location ( probably at cica ) as i remember it, the name of the program your looking for is called icofrite. cica was where i saw it last. it was quite a while ago. richard calderon : < email > * university of miami school of medicine * information systems computing * 1029 nw 15 st. * miami, florida 33136 *",comp.os.ms-windows.misc,0.99832374
+doc_00547,comp.os.ms-windows.misc,comp.windows.x,False,0.5202787316463977,0.3177196390171143,comp.os.ms-windows.misc → comp.windows.x,expected_overlap_pair,"Re: Using Microsoft Foundation Classes with Borland C++ 3.1 Hi all, has anybody tried to compile CTRLTEST from the MFC/SAMPLES directory, after compiling the MFC-libs with BWC ? Seems to me, that BWC isn't able to distinguish pointers to overloaded functions. For example, imagine the following 2 (overloaded) functions: void same_name ( void ) void same_name ( int ) After trying the whole day, I think, with BWC its impossible to take the adress of one of the above two functions and assign it to a properly defined function pointer. Am I right ? Has anybody else had this problem ? thanx",,,comp.os.ms-windows.misc,True,0.9981894,0.9981894,0.9976326,comp.os.ms-windows.misc,0.9981894,comp.windows.x,0.00055674766,baseline_wrong_distilbert_correct,correct,True,False,False,False,"Re: Using Microsoft Foundation Classes with Borland C++ 3.1
+
+Hi all,
+
+has anybody tried to compile CTRLTEST from the MFC/SAMPLES directory,
+after compiling the MFC-libs with BWC ?
+
+Seems to me, that BWC isn't able to distinguish pointers to overloaded
+functions.
+For example, imagine the following 2 (overloaded) functions:
+void same_name ( void )
+void same_name ( int )
+
+After trying the whole day, I think, with BWC its impossible to take the
+adress of one of the above two functions and assign it to a properly defined
+function pointer.
+Am I right ? Has anybody else had this problem ?
+
+ thanx",lime_example_03,"re : using microsoft foundation classes with borland c + + 3. 1 hi all, has anybody tried to compile ctrltest from the mfc / samples directory, after compiling the mfc - libs with bwc? seems to me, that bwc isn't able to distinguish pointers to overloaded functions. for example, imagine the following 2 ( overloaded ) functions : void same _ name ( void ) void same _ name ( int ) after trying the whole day, i think, with bwc its impossible to take the adress of one of the above two functions and assign it to a properly defined function pointer. am i right? has anybody else had this problem? thanx",comp.os.ms-windows.misc,0.9981894
+doc_05908,comp.sys.ibm.pc.hardware,sci.electronics,False,0.3356389061566386,0.12834429873842015,comp.sys.ibm.pc.hardware → sci.electronics,low_margin_wrong;expected_overlap_pair;short_or_very_short_text,"Help! Is a Samtron SC-431 interlaced or non? Hello. My colleague has a Samtron monitor. On the manual cover, it says SC-431 and SC-428 for model numbers. The manual does not specify if it is interlaced or non-interlaced, so does anyone know what it is? thanks Mike Bitz Internet: <EMAIL> Research and Development <EMAIL> Dakota State University Bitnet: <EMAIL>",,,comp.sys.ibm.pc.hardware,True,0.99153394,0.99153394,0.98821646,comp.sys.ibm.pc.hardware,0.99153394,sci.electronics,0.0033174632,baseline_wrong_distilbert_correct,correct,True,False,False,False,"Help! Is a Samtron SC-431 interlaced or non?
+
+Hello. My colleague has a Samtron monitor. On the manual
+ cover, it says SC-431 and SC-428 for model numbers. The
+ manual does not specify if it is interlaced or non-interlaced,
+ so does anyone know what it is?
+ thanks
+
+Mike Bitz Internet: <EMAIL>
+Research and Development <EMAIL>
+Dakota State University Bitnet: <EMAIL>",lime_example_04,"help! is a samtron sc - 431 interlaced or non? hello. my colleague has a samtron monitor. on the manual cover, it says sc - 431 and sc - 428 for model numbers. the manual does not specify if it is interlaced or non - interlaced, so does anyone know what it is? thanks mike bitz internet : < email > research and development < email > dakota state university bitnet : < email >",comp.sys.ibm.pc.hardware,0.99153394
+doc_01796,comp.graphics,comp.graphics,True,0.34029218516050824,0.10362607980213748,correct,correct,test....(sorry),,,sci.electronics,False,0.49733528,0.0035473732,0.028125137,sci.electronics,0.49733528,comp.sys.ibm.pc.hardware,0.46921015,baseline_correct_distilbert_wrong,comp.graphics → sci.electronics,False,True,False,False,test....(sorry),lime_example_05,test.... ( sorry ),sci.electronics,0.49733528
+doc_05642,comp.os.ms-windows.misc,comp.os.ms-windows.misc,True,0.7073431423540856,0.553098307075591,correct,correct,"Corrected MicroCal Origin package uploaded to CICA I've recently re-uploaded to cica the current (v2.8) version of the working model of MicroCal Origin, a scientific and technical 2D/3D graphics and data analysis package for Windows 3.x. The working model is 2D only and puts a promo message on hardcopies, but is largely identical to the full version. Saving Origin files is disabled, but you can save ASCII data sets produced with Origin. It also says it has an expiration date of Sept. 1, 1993. Try it. You may like it, as I do! It's currently at <URL> (129.79.20.17) in the directory /pub/pc/win3/uploads as ORIGIN2.ZIP. The file ORIGIN.ZIP is, unfortunately, incomplete (SORRY 'BOUT THAT!). <inc",,,comp.graphics,False,0.96533304,0.031057477,0.93427557,comp.graphics,0.96533304,comp.os.ms-windows.misc,0.031057477,baseline_correct_distilbert_wrong,comp.os.ms-windows.misc → comp.graphics,False,True,False,False,"Corrected MicroCal Origin package uploaded to CICA
+
+I've recently re-uploaded to cica the current (v2.8) version of the working
+model of MicroCal Origin, a scientific and technical 2D/3D graphics and data
+analysis package for Windows 3.x. The working model is 2D only and puts a
+promo message on hardcopies, but is largely identical to the full version.
+Saving Origin files is disabled, but you can save ASCII data sets produced
+with Origin. It also says it has an expiration date of Sept. 1, 1993.
+
+Try it. You may like it, as I do!
+
+It's currently at <URL> (129.79.20.17) in the directory
+/pub/pc/win3/uploads as ORIGIN2.ZIP. The file ORIGIN.ZIP is, unfortunately,
+incomplete (SORRY 'BOUT THAT!).
+
+<include std disclaimer>
+| Tom Carter | <EMAIL> |
+| Michigan State University | <EMAIL> |
+| Chemistry Department | |",lime_example_06,"corrected microcal origin package uploaded to cica i've recently re - uploaded to cica the current ( v2. 8 ) version of the working model of microcal origin, a scientific and technical 2d / 3d graphics and data analysis package for windows 3. x. the working model is 2d only and puts a promo message on hardcopies, but is largely identical to the full version. saving origin files is disabled, but you can save ascii data sets produced with origin. it also says it has an expiration date of sept. 1, 1993. try it. you may like it, as i do! it's currently at < url > ( 129. 79. 20. 17 ) in the directory / pub / pc / win3 / uploads as origin2. zip. the file origin. zip is, unfortunately, incomplete ( sorry'bout that! ). < include std disclaimer > | tom carter | < email > | | michigan state university | < email > | | chemistry department | |",comp.graphics,0.96533304
+doc_00009,sci.electronics,comp.sys.ibm.pc.hardware,False,0.5016240643660282,0.30398391544851044,sci.electronics → comp.sys.ibm.pc.hardware,expected_overlap_pair,"Re: IBM-PC XT switch settings In article <1qk158$ <EMAIL> > <EMAIL> writes: >I just got an IBM-PC XT with no documents. Its a true >IBM, and I was wondering if anyone had the definitions >of the 2 8 position dip switches? SW8,SW7 number of 5.25"" drives 0,0 1 drive 0,1 2 drives 1,0 3 drives 1,1 4 drives SW6,SW5 type of display 0,0 reserved 0,1 40x25 color (mono mode) 1,0 80x25 color (mono mode) 1,1 mono 80x25 SW4,SW3 amount of memory on system board 64k chips 256k chips 0,0 64k 256k 0,1 128k 512k 1,0 192k 576k 1,1 256k 640k SW2 co-processor installed SW1 loop on POST",,,comp.sys.ibm.pc.hardware,False,0.9892167,0.0077418247,0.9814749,comp.sys.ibm.pc.hardware,0.9892167,sci.electronics,0.0077418247,both_wrong_same_prediction,sci.electronics → comp.sys.ibm.pc.hardware,False,False,True,False,"Re: IBM-PC XT switch settings
+
+In article <1qk158$ <EMAIL> > <EMAIL> writes:
+>I just got an IBM-PC XT with no documents. Its a true
+>IBM, and I was wondering if anyone had the definitions
+>of the 2 8 position dip switches?
+
+SW8,SW7 number of 5.25"" drives
+0,0 1 drive
+0,1 2 drives
+1,0 3 drives
+1,1 4 drives
+
+SW6,SW5 type of display
+0,0 reserved
+0,1 40x25 color (mono mode)
+1,0 80x25 color (mono mode)
+1,1 mono 80x25
+
+SW4,SW3 amount of memory on system board
+ 64k chips 256k chips
+0,0 64k 256k
+0,1 128k 512k
+1,0 192k 576k
+1,1 256k 640k
+
+SW2 co-processor installed
+SW1 loop on POST",lime_example_07,"re : ibm - pc xt switch settings in article < 1qk158 $ < email > > < email > writes : > i just got an ibm - pc xt with no documents. its a true > ibm, and i was wondering if anyone had the definitions > of the 2 8 position dip switches? sw8, sw7 number of 5. 25 "" drives 0, 0 1 drive 0, 1 2 drives 1, 0 3 drives 1, 1 4 drives sw6, sw5 type of display 0, 0 reserved 0, 1 40x25 color ( mono mode ) 1, 0 80x25 color ( mono mode ) 1, 1 mono 80x25 sw4, sw3 amount of memory on system board 64k chips 256k chips 0, 0 64k 256k 0, 1 128k 512k 1, 0 192k 576k 1, 1 256k 640k sw2 co - processor installed sw1 loop on post",comp.sys.ibm.pc.hardware,0.9892167
+doc_02004,comp.windows.x,comp.graphics,False,0.4498078340851428,0.33439432600487673,comp.windows.x → comp.graphics,expected_overlap_pair;short_or_very_short_text,"(none) I am working on a problem of scheduling classroom, and I will like to know if you have some software, papers or articles about it. If you have something relate it, please let me know. thanks Lorenza Illanes",,,sci.electronics,False,0.38941607,0.0607252,0.192674,sci.electronics,0.38941607,comp.sys.ibm.pc.hardware,0.19674207,both_wrong_different_prediction,comp.windows.x → sci.electronics,False,False,True,False,"(none)
+
+I am working on a problem of scheduling classroom, and I will like to know if
+you have some software, papers or articles about it. If you have something
+relate it, please let me know.
+
+ thanks
+
+ Lorenza Illanes",lime_example_08,"( none ) i am working on a problem of scheduling classroom, and i will like to know if you have some software, papers or articles about it. if you have something relate it, please let me know. thanks lorenza illanes",sci.electronics,0.38941607
