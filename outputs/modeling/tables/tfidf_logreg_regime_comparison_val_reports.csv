@@ -1,0 +1,41 @@
+label,precision,recall,f1-score,support,model,text_regime,split
+comp.graphics,0.7755102040816326,0.8769230769230769,0.8231046931407943,130.0,tfidf_logreg,text_metadata_rich_no_leakage,val
+comp.os.ms-windows.misc,0.8805970149253731,0.8368794326241135,0.8581818181818182,141.0,tfidf_logreg,text_metadata_rich_no_leakage,val
+comp.sys.ibm.pc.hardware,0.8068965517241379,0.8125,0.8096885813148789,144.0,tfidf_logreg,text_metadata_rich_no_leakage,val
+comp.sys.mac.hardware,0.9197080291970803,0.9,0.9097472924187726,140.0,tfidf_logreg,text_metadata_rich_no_leakage,val
+comp.windows.x,0.9154929577464789,0.9154929577464789,0.9154929577464789,142.0,tfidf_logreg,text_metadata_rich_no_leakage,val
+sci.crypt,0.9795918367346939,0.9536423841059603,0.9664429530201343,151.0,tfidf_logreg,text_metadata_rich_no_leakage,val
+sci.electronics,0.8703703703703703,0.8493975903614458,0.8597560975609756,166.0,tfidf_logreg,text_metadata_rich_no_leakage,val
+accuracy,0.8777120315581854,0.8777120315581854,0.8777120315581854,0.8777120315581854,tfidf_logreg,text_metadata_rich_no_leakage,val
+macro avg,0.8783095663971096,0.8778336345372965,0.8774877704834074,1014.0,tfidf_logreg,text_metadata_rich_no_leakage,val
+weighted avg,0.8800124082834095,0.8777120315581854,0.8783229006124976,1014.0,tfidf_logreg,text_metadata_rich_no_leakage,val
+comp.graphics,0.7037037037037037,0.8769230769230769,0.7808219178082192,130.0,tfidf_logreg,text_subject_body_clean,val
+comp.os.ms-windows.misc,0.8161764705882353,0.7872340425531915,0.8014440433212996,141.0,tfidf_logreg,text_subject_body_clean,val
+comp.sys.ibm.pc.hardware,0.8120300751879699,0.75,0.779783393501805,144.0,tfidf_logreg,text_subject_body_clean,val
+comp.sys.mac.hardware,0.8592592592592593,0.8285714285714286,0.8436363636363636,140.0,tfidf_logreg,text_subject_body_clean,val
+comp.windows.x,0.8832116788321168,0.852112676056338,0.8673835125448028,142.0,tfidf_logreg,text_subject_body_clean,val
+sci.crypt,0.9565217391304348,0.8741721854304636,0.9134948096885813,151.0,tfidf_logreg,text_subject_body_clean,val
+sci.electronics,0.8265895953757225,0.8614457831325302,0.8436578171091446,166.0,tfidf_logreg,text_subject_body_clean,val
+accuracy,0.8333333333333334,0.8333333333333334,0.8333333333333334,0.8333333333333334,tfidf_logreg,text_subject_body_clean,val
+macro avg,0.8367846460110631,0.8329227418095756,0.8328888368014594,1014.0,tfidf_logreg,text_subject_body_clean,val
+weighted avg,0.8391081901311763,0.8333333333333334,0.8343804059972173,1014.0,tfidf_logreg,text_subject_body_clean,val
+comp.graphics,0.6392405063291139,0.7769230769230769,0.7013888888888888,130.0,tfidf_logreg,text_body_only_clean,val
+comp.os.ms-windows.misc,0.7744360902255639,0.7304964539007093,0.7518248175182481,141.0,tfidf_logreg,text_body_only_clean,val
+comp.sys.ibm.pc.hardware,0.7751937984496124,0.6944444444444444,0.7326007326007326,144.0,tfidf_logreg,text_body_only_clean,val
+comp.sys.mac.hardware,0.8373983739837398,0.7357142857142858,0.7832699619771863,140.0,tfidf_logreg,text_body_only_clean,val
+comp.windows.x,0.8591549295774648,0.8591549295774648,0.8591549295774648,142.0,tfidf_logreg,text_body_only_clean,val
+sci.crypt,0.8979591836734694,0.8741721854304636,0.8859060402684564,151.0,tfidf_logreg,text_body_only_clean,val
+sci.electronics,0.7747252747252747,0.8493975903614458,0.8103448275862069,166.0,tfidf_logreg,text_body_only_clean,val
+accuracy,0.7909270216962525,0.7909270216962525,0.7909270216962525,0.7909270216962525,tfidf_logreg,text_body_only_clean,val
+macro avg,0.7940154509948912,0.7886147094788416,0.7892128854881693,1014.0,tfidf_logreg,text_body_only_clean,val
+weighted avg,0.7962097299981721,0.7909270216962525,0.7915475428567923,1014.0,tfidf_logreg,text_body_only_clean,val
+comp.graphics,0.6826347305389222,0.8769230769230769,0.7676767676767676,130.0,tfidf_logreg,text_subject_body_no_quotes,val
+comp.os.ms-windows.misc,0.7941176470588235,0.7659574468085106,0.779783393501805,141.0,tfidf_logreg,text_subject_body_no_quotes,val
+comp.sys.ibm.pc.hardware,0.8076923076923077,0.7291666666666666,0.7664233576642335,144.0,tfidf_logreg,text_subject_body_no_quotes,val
+comp.sys.mac.hardware,0.8778625954198473,0.8214285714285714,0.8487084870848709,140.0,tfidf_logreg,text_subject_body_no_quotes,val
+comp.windows.x,0.8823529411764706,0.8450704225352113,0.8633093525179856,142.0,tfidf_logreg,text_subject_body_no_quotes,val
+sci.crypt,0.9555555555555556,0.8543046357615894,0.9020979020979021,151.0,tfidf_logreg,text_subject_body_no_quotes,val
+sci.electronics,0.8044692737430168,0.8674698795180723,0.8347826086956521,166.0,tfidf_logreg,text_subject_body_no_quotes,val
+accuracy,0.8234714003944773,0.8234714003944773,0.8234714003944773,0.8234714003944773,tfidf_logreg,text_subject_body_no_quotes,val
+macro avg,0.8292407215978491,0.8229029570916712,0.8232545527484596,1014.0,tfidf_logreg,text_subject_body_no_quotes,val
+weighted avg,0.8314067700681592,0.8234714003944773,0.8247654973324273,1014.0,tfidf_logreg,text_subject_body_no_quotes,val
