@@ -1,0 +1,9 @@
+lime_example_id,top_lime_tokens,top_attention_tokens,overlap_tokens,n_overlap
+lime_example_01,"synthesis, radio, in, speech, voice, alltronics, jose, amounts","., alltronics, ., ., chip, chip, chips, synth",alltronics,1
+lime_example_02,"windows, icons, icofrite, program, away, made, saw, anyone","windows, icofrite, icons, ), icons, ., ), moving","icofrite, icons, windows",3
+lime_example_03,"microsoft, bwc, ctrltest, mfc, pointers, function, c, functions","microsoft, ., functions, pointers, ., samples, bwc, mfc","bwc, functions, mfc, microsoft, pointers",5
+lime_example_04,"monitor, interlaced, samtron, manual, 431, 428, colleague, model","431, interlaced, 428, interlaced, ., 431, interlaced, samtron","428, 431, interlaced, samtron",4
+lime_example_05,"test, sorry","test, ), ., (, ., sorry, ., .","sorry, test",2
+lime_example_06,"3d, 2d, windows, 3, graphics, for, cica, of","windows, microcal, microcal, hardcopies, graphics, 2d, 3d, origin","2d, 3d, graphics, windows",4
+lime_example_07,"ibm, drives, memory, switches, color, drive, switch, 1","., xt, switch, ibm, xt, ibm, sw1, )","ibm, switch",2
+lime_example_08,"classroom, problem, have, software, working, scheduling, some, if",",, classroom, ., ,, scheduling, lorenza, software, illanes","classroom, scheduling, software",3
