@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-06-15T18:35:38",
+  "notebook": "02_modeling_evaluation.ipynb",
+  "random_state": 42,
+  "dataset_path": "data/processed/20ng_tech_modeling_input.parquet",
+  "target_col": "label",
+  "target_id_col": "label_id",
+  "id_col": "doc_id",
+  "message_id_col": "message_id",
+  "text_regimes_available": [
+    "text_raw",
+    "text_metadata_rich_no_leakage",
+    "text_subject_body_clean",
+    "text_body_only_clean",
+    "text_subject_body_no_quotes"
+  ],
+  "modeling_text_regimes": [
+    "text_metadata_rich_no_leakage",
+    "text_subject_body_clean",
+    "text_body_only_clean",
+    "text_subject_body_no_quotes"
+  ],
+  "excluded_from_fair_modelling": [
+    "text_raw"
+  ],
+  "main_text_regime": "text_subject_body_clean",
+  "metadata_rich_diagnostic_regime": "text_metadata_rich_no_leakage",
+  "raw_audit_regime": "text_raw",
+  "labels": [
+    "comp.graphics",
+    "comp.os.ms-windows.misc",
+    "comp.sys.ibm.pc.hardware",
+    "comp.sys.mac.hardware",
+    "comp.windows.x",
+    "sci.crypt",
+    "sci.electronics"
+  ],
+  "raw_text_policy": "text_raw is retained for audit and thread metadata extraction only. It is excluded from fair modelling comparisons because the raw archive contains direct Newsgroups label leakage.",
+  "planned_split_strategy": [
+    "Use text_raw only to parse thread metadata such as Message-ID, References, and In-Reply-To.",
+    "Attempt thread/quote-aware grouping using Message-ID, References, In-Reply-To, and quote fingerprints.",
+    "If feasible, use group-aware train/validation/test split.",
+    "If not feasible, use stratified split and report quoted-thread overlap as a validity threat."
+  ],
+  "primary_metric": "macro_f1",
+  "secondary_metrics": [
+    "accuracy",
+    "per_class_precision",
+    "per_class_recall",
+    "per_class_f1"
+  ],
+  "evaluation_slices": [
+    "length_slice",
+    "quote_density_slice",
+    "artifact_density_slice",
+    "has_uuencoded_payload",
+    "has_faq_digest_signal",
+    "language_or_encoding_review_flag"
+  ]
+}
