@@ -104,16 +104,20 @@ DistilBERT outperformed the linear baseline across all classes, particularly on 
 
 ```text
 ├── notebooks/
-│   ├── 01_20newsgroup_EDA.ipynb         # Dataset inspection, preprocessing, leakage audit, text regimes
-│   └── 02_20newsgroup_Modeling.ipynb    # Split strategy, baseline, DistilBERT, evaluation, LIME, risk
+│   ├── 01_20newsgroup_EDA.ipynb         # Dataset inspection, preprocessing, leakage audit
+│   └── 02_20newsgroup_Modeling.ipynb    # Split strategy, baseline, DistilBERT, evaluation, LIME
 ├── outputs/
-│   ├── config/
-│   │   ├── final_run_config.json
-│   │   ├── environment_info.json
-│   │   ├── requirements.txt
-│   │   └── output_manifest.json
-│   ├── tables/                          # Final test metrics, per-class results, split assignments, explainability
-│   └── figures/                         # Key plots used in the report
+│   ├── config/                          # Run config, environment info, requirements, manifest
+│   ├── explanations/
+│   │   ├── attention/                   # Attention-based explainability outputs
+│   │   └── lime/                        # LIME explainability outputs
+│   ├── figures/                         # Key plots used in the report
+│   ├── modeling/
+│   │   ├── config/
+│   │   └── tables/                      # Model outputs, metrics
+│   └── tables/                          # Final test metrics, per-class results, split assignments
+├── data/
+├── .gitignore
 └── README.md
 ```
 
